@@ -8,6 +8,13 @@ public class Player {
     }
 
 
+    public void plusWinCash(int a){
+        cash = cash + a;
+    }
+
+    public int setCash(){
+        return  this.cash;
+    }
 
     private String name;
     private int age;

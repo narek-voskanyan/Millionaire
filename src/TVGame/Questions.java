@@ -57,7 +57,7 @@ public class Questions {
                         return false;
                     }
                 default:
-                    System.out.println("There is not variant");
+                    System.out.println("There is not that variant in proposed like this" );
                     continue;
             }
         }
