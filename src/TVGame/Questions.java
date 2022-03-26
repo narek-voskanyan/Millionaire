@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Questions {
-    Questions(int status, String question, String trueAnswers, String answerTwo, String answerThree, String answerFour ){
-        this.status = status;
+    Questions(String question, String trueAnswers, String answerTwo, String answerThree, String answerFour ){
         this.question = question;
         this.trueAnswers = trueAnswers;
         this.answerTwo = answerTwo;
@@ -64,11 +63,6 @@ public class Questions {
 
     }
 
-    public int getStatus(){
-        return status;
-    }
-
-    private final int status;
     private final String question;
     private final String trueAnswers;
     private final String answerTwo;
