@@ -1,7 +1,5 @@
 package TVGame;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -14,16 +12,55 @@ public class Questions {
         this.answerThree = answerThree;
         this.answerFour = answerFour;
     }
-    public void getQuestion(){
+
+    //return answer shuffle
+    private ArrayList<String> getAnswer(){
         ArrayList<String> answers = new ArrayList<>(4);
         answers.add(trueAnswers);
         answers.add(answerTwo);
         answers.add(answerThree);
         answers.add(answerFour);
         Collections.shuffle(answers);
-        System.out.println("A" + "( " + answers.get(0) + " )" + "B" + "( " + answers.get(1) + " )" + "\n" +
-                "C" + "( " + answers.get(2) + " )" + "D" + "( " + answers.get(3) + " )");
 
+        return answers;
+    }
+
+    public boolean getQuestion(String fromUser){
+        ArrayList<String> forAnswer = getAnswer();
+        System.out.println(question);
+        System.out.println("A " + "( " + forAnswer.get(0) + " )" + "B " + "( " + forAnswer.get(1) + " )" + "\n" +
+                "C " + "( " + forAnswer.get(2) + " )" + "D " + "( " + forAnswer.get(3) + " )");
+        while (true) {
+            switch (fromUser) {
+                case "a":
+                    if (forAnswer.get(0).equals(trueAnswers)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                case "b":
+                    if (forAnswer.get(1).equals(trueAnswers)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                case "c":
+                    if (forAnswer.get(2).equals(trueAnswers)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                case "d":
+                    if (forAnswer.get(3).equals(trueAnswers)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                default:
+                    System.out.println("There is not variant");
+                    continue;
+            }
+        }
 
     }
 
