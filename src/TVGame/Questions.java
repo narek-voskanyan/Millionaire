@@ -9,6 +9,9 @@ public class Questions {
         this.answerThree = answerThree;
         this.answerFour = answerFour;
     }
+    public void getQuestion(){
+
+    }
 
     private final int status;
     private final String question;
