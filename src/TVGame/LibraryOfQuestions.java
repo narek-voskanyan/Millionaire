@@ -1,6 +1,7 @@
 package TVGame;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class LibraryOfQuestions {
     public ArrayList<Questions> getQuestionsForGame(){
@@ -34,6 +35,14 @@ public class LibraryOfQuestions {
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
 
+
+        //shuffle and collect questions for game
+        Collections.shuffle(easyQuestions);
+        Collections.shuffle(mediumQuestions);
+        Collections.shuffle(hardQuestions);
+        getQuestionsForGame().addAll(easyQuestions.subList(0,5));
+        getQuestionsForGame().addAll(mediumQuestions.subList(0,5));
+        getQuestionsForGame().addAll(hardQuestions.subList(0,5));
 
         return getQuestionsForGame();
     }
