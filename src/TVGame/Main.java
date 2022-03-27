@@ -38,6 +38,7 @@ public class Main {
                 System.exit(0);
             }
         }
-        System.out.println("Game is and");
+        System.out.println("Congratulations you win " + user.setCash() + " $");
+        System.exit(0);
     }
 }
