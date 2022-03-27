@@ -100,6 +100,9 @@ public class LibraryOfQuestions {
         hardQuestions.add(new Questions("Who is the only winner of the Nobel Peace Prize to decline the prize?",
                 "Le Duc Tho", "Albert Schweitzer", "Andrei Sakharov", "Aung San Suu Kyi"));
 
+        hardQuestions.add(new Questions("Who is credited with inventing the first mass-produced helicopter?",
+                "Igor Sikorsky", "Elmer Sperry", "Ferdinand von Zeppelin", "Gottlieb Daimler"));
+
 
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
