@@ -34,6 +34,8 @@ private String getAnswerFromUser(){
 
     public int getQuestion(){
         ArrayList<String> forAnswer = getAnswer();
+        System.out.println("::: FOR CASH OUT PRESS M ::: \n" +
+                "---------------------------------------");
         System.out.println(question);
         System.out.println( "A " + "\" " + forAnswer.get(0) + " \"" + " B " + "\" " + forAnswer.get(1) + " \"" + "\n" +
                             "C " + "\" " + forAnswer.get(2) + " \"" + " D " + "\" " + forAnswer.get(3) + " \"");
@@ -65,6 +67,8 @@ private String getAnswerFromUser(){
                     } else {
                         return 0;
                     }
+                case "m":
+                    return 2;
                 default:
                     System.out.println("There is not that variant in proposed like this" );
             }

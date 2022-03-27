@@ -47,7 +47,7 @@ public class LibraryOfQuestions {
                 "Pompeii", "Athens", "Sparta", "Rhodes"));
 
         mediumQuestions.add(new Questions("The most higher mountain in Sibir ?",
-                "Belukha", "Athens", "Sparta", "Rhodes"));
+                "Belukha", "Kazbek", "Elbrus", "Lenin Peak"));
 
         mediumQuestions.add(new Questions("Real name of Freddie Mercury ?",
                 "Farrokh Bulsara", "Mohamed Salah", "Ibrahim Tattles", "Rhodes Al Nodes"));
