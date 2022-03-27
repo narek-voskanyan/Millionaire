@@ -28,12 +28,30 @@ public class LibraryOfQuestions {
         easyQuestions.add(new Questions("What from this enumeration is not Vegetable?",
                 "Apple", "Carrot", "Potato", "Corn"));
 
+        easyQuestions.add(new Questions("Who presented black square  as a work of art?",
+                "\n" +
+                        "K. Malevich", "S. Dalli", "Picasso", "Van Gogh"));
+
         //collection for medium questions
         ArrayList<Questions> mediumQuestions = new ArrayList<>();
 
+        mediumQuestions.add(new Questions("The name of most far from land the place in ocean?",
+                "Point Nemo", "Alaska", "Point Dolly", "Tiki Ocean"));
+
+        mediumQuestions.add(new Questions("How much high of Aragats north peak ?",
+                "4090 Nemo", "4075", "5165", "6542"));
+
+        mediumQuestions.add(new Questions("Ancient Greek city who has been destroyed by volcano ?",
+                "Pompeii", "Athens", "Sparta", "Rhodes"));
 
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
+
+        hardQuestions.add(new Questions("Who painted Jesus Christ on the lap of his mother at the adult age?",
+                "Michelangelo", "Da Vinci", "Raphael", "Donatello"));
+
+        hardQuestions.add(new Questions("Date of death Govard Lovecraft",
+                "1937", "1955", "1880", "1943"));
 
 
         //shuffle and collect questions for game
