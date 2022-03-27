@@ -29,8 +29,7 @@ public class LibraryOfQuestions {
                 "Apple", "Carrot", "Potato", "Corn"));
 
         easyQuestions.add(new Questions("Who presented black square  as a work of art?",
-                "\n" +
-                        "K. Malevich", "S. Dalli", "Picasso", "Van Gogh"));
+                "K. Malevich", "S. Dalli", "Picasso", "Van Gogh"));
 
         //collection for medium questions
         ArrayList<Questions> mediumQuestions = new ArrayList<>();
