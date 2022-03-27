@@ -55,6 +55,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("Real name of Freddie Mercury ?",
                 "Farrokh Bulsara", "Mohamed Salah", "Ibrahim Tattles", "Rhodes Al Nodes"));
 
+        mediumQuestions.add(new Questions("The Earth is approximately how many kilometers  away from the Sun?",
+                "143 million", "62 million", "310 million", "14 million"));
+
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
 
