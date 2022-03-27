@@ -89,6 +89,6 @@ private String getAnswerFromUser(){
     private final String answerTwo;
     private final String answerThree;
     private final String answerFour;
-    private int[] winCash = {100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000};
+    private int[] winCash = {100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000};
 
 }
