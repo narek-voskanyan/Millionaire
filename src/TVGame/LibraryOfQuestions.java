@@ -46,6 +46,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("Ancient Greek city who has been destroyed by volcano ?",
                 "Pompeii", "Athens", "Sparta", "Rhodes"));
 
+        mediumQuestions.add(new Questions("Which US president was an actor ?",
+                "Ronald Reagan", "Grover Cleveland", "Calvin Coolidge", "Bill Clinton"));
+
         mediumQuestions.add(new Questions("The most higher mountain in Sibir ?",
                 "Belukha", "Kazbek", "Elbrus", "Lenin Peak"));
 
