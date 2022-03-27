@@ -56,6 +56,15 @@ public class LibraryOfQuestions {
         hardQuestions.add(new Questions("Date of death Govard Lovecraft",
                 "1937", "1955", "1880", "1943"));
 
+        hardQuestions.add(new Questions("What is the name of the strait during the passage of which sailors were\n" +
+                " allowed to wear a golden earring",
+                "Strait of Drake", "Strait of Gibraltar", "Strait of Dover", "Strait of Juan de Fuca"));
+
+        hardQuestions.add(new Questions("Where was birth Jo Nesbo",
+                "Norway", "Sweden", "Germany", "Ukrainian"));
+//////////////////////////////////
+        hardQuestions.add(new Questions("Where was birth Jo Nesbo",
+                "Norway", "Sweden", "Germany", "Ukrainian"));
 
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
