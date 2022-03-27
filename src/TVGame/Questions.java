@@ -35,8 +35,8 @@ private String getAnswerFromUser(){
     public boolean getQuestion(){
         ArrayList<String> forAnswer = getAnswer();
         System.out.println(question);
-        System.out.println("A " + "\" " + forAnswer.get(0) + " \"" + "B " + "\" " + forAnswer.get(1) + " \"" + "\n" +
-                "C " + "\" " + forAnswer.get(2) + " \"" + "D " + "\" " + forAnswer.get(3) + " \"");
+        System.out.println( "A " + "\" " + forAnswer.get(0) + " \"" + " B " + "\" " + forAnswer.get(1) + " \"" + "\n" +
+                            "C " + "\" " + forAnswer.get(2) + " \"" + " D " + "\" " + forAnswer.get(3) + " \"");
         while (true) {
             String fromUser = getAnswerFromUser();
             switch (fromUser) {

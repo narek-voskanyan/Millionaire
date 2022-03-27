@@ -6,7 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Questions> testOne = LibraryOfQuestions.getQuestionsForGame();
-       boolean boo = testOne.get(0).getQuestion();
-       System.out.println(boo);
+        for (int i = 0; i < 15; i++){
+            System.out.println(i+1 + ":");
+            boolean boo = testOne.get(i).getQuestion();
+            System.out.println(boo);
+        }
+        System.out.println("Game is and");
+
     }
 }

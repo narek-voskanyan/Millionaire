@@ -38,6 +38,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("The name of most far from land the place in ocean?",
                 "Point Nemo", "Alaska", "Point Dolly", "Tiki Ocean"));
 
+        mediumQuestions.add(new Questions("What is the biggest planet in solar system?",
+                "Jupiter", "Venus", "Saturn", "Pluto"));
+
         mediumQuestions.add(new Questions("How much high of Aragats north peak ?",
                 "4090 Nemo", "4075", "5165", "6542"));
 
@@ -67,7 +70,7 @@ public class LibraryOfQuestions {
                 "Norway", "Sweden", "Germany", "Ukrainian"));
 
         hardQuestions.add(new Questions("What is country was born Frida Kahlo ?",
-                "Norway", "Sweden", "Germany", "Ukrainian"));
+                "Mexico", "Argentina", "Chili", "Brazil"));
 
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
