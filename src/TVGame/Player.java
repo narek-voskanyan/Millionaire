@@ -20,7 +20,7 @@ public class Player {
     }
 
     public void plusWinCash(int a){
-        cash = cash + a;
+        cash =  a;
     }
 
     public int setCash(){
