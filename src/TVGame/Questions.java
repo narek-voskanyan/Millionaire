@@ -28,8 +28,7 @@ public class Questions {
 private String getAnswerFromUser(){
     Scanner in = new Scanner(System.in);
     System.out.println("Enter your answer please");
-    String fromUser = in.next();
-    return fromUser;
+    return in.next();
 }
 
     public boolean getQuestion(){
@@ -66,7 +65,6 @@ private String getAnswerFromUser(){
                     }
                 default:
                     System.out.println("There is not that variant in proposed like this" );
-                    continue;
             }
         }
 

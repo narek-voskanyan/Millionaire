@@ -71,6 +71,9 @@ public class LibraryOfQuestions {
         hardQuestions.add(new Questions("What is country was born Frida Kahlo ?",
                 "Mexico", "Argentina", "Chili", "Brazil"));
 
+        hardQuestions.add(new Questions("how many symphonies did Beethoven Write ?",
+                "9", "11", "7", "14"));
+
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
         Collections.shuffle(mediumQuestions);
