@@ -19,7 +19,7 @@ public class LibraryOfQuestions {
         easyQuestions.add(new Questions("Who has been USSR last president?",
                 "M. S. Gorbachev", "I. V. Stalin", "L. I. Brezhnev", "N. S. Khrushchev"));
 
-        easyQuestions.add(new Questions("Date of end second world war?",
+        easyQuestions.add(new Questions("Date of end WWII ?",
                 "1945", "2014", "1921", "1968"));
 
         easyQuestions.add(new Questions("Name of  Homer  son from \"Simpsons\" cartoon? ",
@@ -30,6 +30,7 @@ public class LibraryOfQuestions {
 
         easyQuestions.add(new Questions("Who presented black square  as a work of art?",
                 "K. Malevich", "S. Dalli", "Picasso", "Van Gogh"));
+
 
         //collection for medium questions
         ArrayList<Questions> mediumQuestions = new ArrayList<>();
@@ -65,7 +66,10 @@ public class LibraryOfQuestions {
                 "Moth", "Roach", "Fly", "Japanese Beetle"));
 
         mediumQuestions.add(new Questions("Who is the only Nobel laureate to win an Academy Award?",
-                "George Bernard Shaw", "Toni Morrison", "Jean-Paul Sartre", "john Steinbeck"));
+                "George Bernard Shaw", "Toni Morrison", "Jean-Paul Sartre", "John Steinbeck"));
+
+        mediumQuestions.add(new Questions("During WWII, U.S. soldiers used the first commercial aerosol cans to hold what?",
+                "Insecticide", "Shaving Cream", "Antiseptic", "Cleaning Fluid"));
 
 
 
