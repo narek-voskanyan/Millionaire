@@ -64,6 +64,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("What insect shorted out an early supercomputer and inspired the term 'computer bug'?",
                 "Moth", "Roach", "Fly", "Japanese Beetle"));
 
+        mediumQuestions.add(new Questions("Who is the only Nobel laureate to win an Academy Award?",
+                "George Bernard Shaw", "Toni Morrison", "Jean-Paul Sartre", "john Steinbeck"));
+
 
 
         //collection for hard questions
@@ -102,6 +105,9 @@ public class LibraryOfQuestions {
 
         hardQuestions.add(new Questions("Who is credited with inventing the first mass-produced helicopter?",
                 "Igor Sikorsky", "Elmer Sperry", "Ferdinand von Zeppelin", "Gottlieb Daimler"));
+
+        hardQuestions.add(new Questions("Famous pediatrician and author Dr. Benjamin Spock won an Olympic gold medal in what sport?",
+                "Rowing", "Fencing", "Sailing", "Swimming"));
 
 
         //shuffle and collect questions for game
