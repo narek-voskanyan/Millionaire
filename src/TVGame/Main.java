@@ -15,7 +15,7 @@ public class Main {
                     "---------------------------------------");
             int boo = testOne.get(i).getQuestion();
 
-            if(boo == 1 && (i == 4 || i == 8 || i == 13)){
+            if(boo == 1 && (i == 4 || i == 9 || i == 14)){
                 user.plusWinCash(testOne.get(i).setWinCash(i));
                 continue;
             }
