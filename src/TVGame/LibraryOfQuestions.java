@@ -47,6 +47,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("The most higher mountain in Sibir ?",
                 "Belukha", "Athens", "Sparta", "Rhodes"));
 
+        mediumQuestions.add(new Questions("Real name of freddie mercury ?",
+                "Farrokh Bulsara", "Mohamed Salah", "Ibrahim Tattles", "Rhodes Al Nodes"));
+
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
 
@@ -60,10 +63,10 @@ public class LibraryOfQuestions {
                 " allowed to wear a golden earring",
                 "Strait of Drake", "Strait of Gibraltar", "Strait of Dover", "Strait of Juan de Fuca"));
 
-        hardQuestions.add(new Questions("Where was birth Jo Nesbo",
+        hardQuestions.add(new Questions("What is country was born Jo Nesbo ?",
                 "Norway", "Sweden", "Germany", "Ukrainian"));
-//////////////////////////////////
-        hardQuestions.add(new Questions("Where was birth Jo Nesbo",
+
+        hardQuestions.add(new Questions("What is country was born Frida Kahlo ?",
                 "Norway", "Sweden", "Germany", "Ukrainian"));
 
         //shuffle and collect questions for game
