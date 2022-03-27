@@ -58,6 +58,14 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("The Earth is approximately how many kilometers  away from the Sun?",
                 "143 million", "62 million", "310 million", "14 million"));
 
+        mediumQuestions.add(new Questions("What Shakespeare character says, 'Something is rotten in the state of Denmark'?",
+                "Marcellus", "Horatio", "Laertes", "Hamlet"));
+
+        mediumQuestions.add(new Questions("What insect shorted out an early supercomputer and inspired the term 'computer bug'?",
+                "Moth", "Roach", "Fly", "Japanese Beetle"));
+
+
+
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
 
@@ -77,8 +85,18 @@ public class LibraryOfQuestions {
         hardQuestions.add(new Questions("What is country was born Frida Kahlo ?",
                 "Mexico", "Argentina", "Chili", "Brazil"));
 
-        hardQuestions.add(new Questions("how many symphonies did Beethoven Write ?",
+        hardQuestions.add(new Questions("How many symphonies did Beethoven Write ?",
                 "9", "11", "7", "14"));
+
+        hardQuestions.add(new Questions("Playwright Anton Chekhov graduated from the University of Moscow with a degree in what?",
+                "Medicine", "Philosophy", "Law", "Economics"));
+
+        hardQuestions.add(new Questions("On February 22, 1989, what group won the first Grammy award for the Best Hard Rock/Metal Performance?",
+                "Jethro Tull", "Living Colour", "AC/DC", "Metallica"));
+
+        hardQuestions.add(new Questions("Which of the following men does not have a chemical element named for him?",
+                "Isaac Newton", "Albert Einstein", "Niels Bohr", "Enrico Fermi"));
+
 
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
