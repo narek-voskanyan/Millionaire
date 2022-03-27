@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class LibraryOfQuestions {
-    public ArrayList<Questions> getQuestionsForGame(){
+    public static ArrayList<Questions> getQuestionsForGame(){
         ArrayList<Questions> allQuestions = new ArrayList<>(15);
 
         // collection for easy question
@@ -73,11 +73,11 @@ public class LibraryOfQuestions {
         Collections.shuffle(easyQuestions);
         Collections.shuffle(mediumQuestions);
         Collections.shuffle(hardQuestions);
-        getQuestionsForGame().addAll(easyQuestions.subList(0,5));
-        getQuestionsForGame().addAll(mediumQuestions.subList(0,5));
-        getQuestionsForGame().addAll(hardQuestions.subList(0,5));
+        allQuestions.addAll(easyQuestions.subList(0,5));
+        allQuestions.addAll(mediumQuestions.subList(0,5));
+        allQuestions.addAll(hardQuestions.subList(0,5));
 
-        return getQuestionsForGame();
+        return allQuestions;
     }
 
 }
