@@ -44,6 +44,9 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("Ancient Greek city who has been destroyed by volcano ?",
                 "Pompeii", "Athens", "Sparta", "Rhodes"));
 
+        mediumQuestions.add(new Questions("The most higher mountain in Sibir ?",
+                "Belukha", "Athens", "Sparta", "Rhodes"));
+
         //collection for hard questions
         ArrayList<Questions> hardQuestions = new ArrayList<>();
 
