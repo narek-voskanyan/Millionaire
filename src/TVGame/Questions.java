@@ -2,6 +2,7 @@ package TVGame;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Questions {
@@ -38,6 +39,7 @@ private String getAnswerFromUser(){
                             "C " + "\" " + forAnswer.get(2) + " \"" + " D " + "\" " + forAnswer.get(3) + " \"");
         while (true) {
             String fromUser = getAnswerFromUser();
+            fromUser = fromUser.toLowerCase();
             switch (fromUser) {
                 case "a":
                     if (forAnswer.get(0).equals(trueAnswers)) {
@@ -68,6 +70,10 @@ private String getAnswerFromUser(){
             }
         }
 
+    }
+
+    public String getTrueAnswers(){
+        return this.trueAnswers;
     }
 
     private final String question;
