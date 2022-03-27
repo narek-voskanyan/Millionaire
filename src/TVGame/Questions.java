@@ -32,7 +32,7 @@ private String getAnswerFromUser(){
     return in.next();
 }
 
-    public boolean getQuestion(){
+    public int getQuestion(){
         ArrayList<String> forAnswer = getAnswer();
         System.out.println(question);
         System.out.println( "A " + "\" " + forAnswer.get(0) + " \"" + " B " + "\" " + forAnswer.get(1) + " \"" + "\n" +
@@ -43,27 +43,27 @@ private String getAnswerFromUser(){
             switch (fromUser) {
                 case "a":
                     if (forAnswer.get(0).equals(trueAnswers)) {
-                        return true;
+                        return 1;
                     } else {
-                        return false;
+                        return 0;
                     }
                 case "b":
                     if (forAnswer.get(1).equals(trueAnswers)) {
-                        return true;
+                        return 1;
                     } else {
-                        return false;
+                        return 0;
                     }
                 case "c":
                     if (forAnswer.get(2).equals(trueAnswers)) {
-                        return true;
+                        return 1;
                     } else {
-                        return false;
+                        return 0;
                     }
                 case "d":
                     if (forAnswer.get(3).equals(trueAnswers)) {
-                        return true;
+                        return 1;
                     } else {
-                        return false;
+                        return 0;
                     }
                 default:
                     System.out.println("There is not that variant in proposed like this" );
@@ -76,10 +76,15 @@ private String getAnswerFromUser(){
         return this.trueAnswers;
     }
 
+    public int setWinCash(int a){
+        return winCash[a];
+    }
+
     private final String question;
     private final String trueAnswers;
     private final String answerTwo;
     private final String answerThree;
     private final String answerFour;
+    private int[] winCash = {100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000};
 
 }
