@@ -50,7 +50,7 @@ public class LibraryOfQuestions {
         mediumQuestions.add(new Questions("The most higher mountain in Sibir ?",
                 "Belukha", "Athens", "Sparta", "Rhodes"));
 
-        mediumQuestions.add(new Questions("Real name of freddie mercury ?",
+        mediumQuestions.add(new Questions("Real name of Freddie Mercury ?",
                 "Farrokh Bulsara", "Mohamed Salah", "Ibrahim Tattles", "Rhodes Al Nodes"));
 
         //collection for hard questions
