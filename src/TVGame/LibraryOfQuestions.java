@@ -97,6 +97,9 @@ public class LibraryOfQuestions {
         hardQuestions.add(new Questions("Which of the following men does not have a chemical element named for him?",
                 "Isaac Newton", "Albert Einstein", "Niels Bohr", "Enrico Fermi"));
 
+        hardQuestions.add(new Questions("Who is the only winner of the Nobel Peace Prize to decline the prize?",
+                "Le Duc Tho", "Albert Schweitzer", "Andrei Sakharov", "Aung San Suu Kyi"));
+
 
         //shuffle and collect questions for game
         Collections.shuffle(easyQuestions);
