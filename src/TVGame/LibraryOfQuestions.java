@@ -41,7 +41,7 @@ public class LibraryOfQuestions {
                 "Jupiter", "Venus", "Saturn", "Pluto"));
 
         mediumQuestions.add(new Questions("How much high of Aragats north peak ?",
-                "4090 Nemo", "4075", "5165", "6542"));
+                "4090", "4075", "5165", "6542"));
 
         mediumQuestions.add(new Questions("Ancient Greek city who has been destroyed by volcano ?",
                 "Pompeii", "Athens", "Sparta", "Rhodes"));
