@@ -2,6 +2,7 @@ package TVGame;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class Questions {
 
@@ -24,13 +25,20 @@ public class Questions {
 
         return answers;
     }
+private String getAnswerFromUser(){
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter your answer please");
+    String fromUser = in.next();
+    return fromUser;
+}
 
-    public boolean getQuestion(String fromUser){
+    public boolean getQuestion(){
         ArrayList<String> forAnswer = getAnswer();
         System.out.println(question);
-        System.out.println("A " + "( " + forAnswer.get(0) + " )" + "B " + "( " + forAnswer.get(1) + " )" + "\n" +
-                "C " + "( " + forAnswer.get(2) + " )" + "D " + "( " + forAnswer.get(3) + " )");
+        System.out.println("A " + "\" " + forAnswer.get(0) + " \"" + "B " + "\" " + forAnswer.get(1) + " \"" + "\n" +
+                "C " + "\" " + forAnswer.get(2) + " \"" + "D " + "\" " + forAnswer.get(3) + " \"");
         while (true) {
+            String fromUser = getAnswerFromUser();
             switch (fromUser) {
                 case "a":
                     if (forAnswer.get(0).equals(trueAnswers)) {
